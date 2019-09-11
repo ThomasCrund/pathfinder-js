@@ -1,0 +1,28 @@
+{
+  "name": "pathfinder1-jaci-js",
+  "version": "1.0.16",
+  "description": "exported c++ library called Pathfinder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild --ensure",
+    "configure": "node-gyp configure",
+    "build": "node-gyp configure build",
+    "rebuild": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "build-debug": "node-gyp rebuild --debug"
+  },
+  "keywords": [
+    "frc",
+    "pathfinder",
+    "addon",
+    "c++"
+  ],
+  "author": "Thomas C",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "node-gyp": "^4.0.0"
+  }
+}
