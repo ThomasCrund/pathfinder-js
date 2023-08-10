@@ -23,6 +23,6 @@
   "gypfile": true,
   "dependencies": {
     "bindings": "^1.2.1",
-    "node-gyp": "^4.0.0"
+    "node-gyp": "^9.4.0"
   }
 }
